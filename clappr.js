@@ -37,9 +37,6 @@
                     disableKeyboardShortcuts: true,
                     disableVideoTagContextMenu: true,
                     exitFullscreenOnEnd: false,
-                    playback: {
-                        playInline: true,
-                    },
                     //height: $(window).innerHeight(),
                     language: "tr-TR",
                     //persistConfig: false,
