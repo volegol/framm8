@@ -56,6 +56,7 @@
                         },
                     },
                     width: '100%',
+                    height: $(window).innerHeight()
                 },
             },
             extend: function(defaults, options) {
