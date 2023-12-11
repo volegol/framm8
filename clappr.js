@@ -45,6 +45,10 @@
                     disableKeyboardShortcuts: true,
                     disableVideoTagContextMenu: true,
                     exitFullscreenOnEnd: false,
+                    playback: {
+                        playInline: true,
+                        recycleVideo: true,
+                    },
                     //height: $(window).innerHeight(),
                     language: "tr-TR",
                     //persistConfig: false,
@@ -61,7 +65,6 @@
                         },
                     },
                     width: '100%',
-                    height: $(window).innerHeight()
                 },
             },
             extend: function(defaults, options) {
