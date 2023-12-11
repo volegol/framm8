@@ -39,12 +39,6 @@
                         });
                     }
 
-
-
-                    $('div[data-player]').css({
-                        width: $(window).innerWidth()+'px',
-                        height: $(window).innerHeight()+'px'
-                    });
                 },
                 options: {
                     autoPlay: autoPlay,
