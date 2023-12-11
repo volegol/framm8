@@ -26,6 +26,21 @@
                         height: $(window).innerHeight()
                     });*/
 
+                    if (Clappr.Browser.isMobile) {
+
+                        $('div[data-player]').css({
+                            width: $(window).innerWidth() + 'px',
+                        });
+                    } else {
+
+                        $('div[data-player]').css({
+                            width: $(window).innerWidth() + 'px',
+                            height: $(window).innerHeight() + 'px'
+                        });
+                    }
+
+
+
                     $('div[data-player]').css({
                         width: $(window).innerWidth()+'px',
                         height: $(window).innerHeight()+'px'
