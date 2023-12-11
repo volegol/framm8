@@ -26,13 +26,10 @@
                         height: $(window).innerHeight()
                     });*/
 
-                    if (!Clappr.Browser.isMobile) {
-
-                        $('div[data-player]').css({
-                            width: $(window).innerWidth() + 'px',
-                            height: $(window).innerHeight() + 'px'
-                        });
-                    }
+                    $('div[data-player]').css({
+                        width: $(window).innerWidth() + 'px',
+                        height: $(window).innerHeight() + 'px'
+                    });
 
                 },
                 options: {
@@ -42,7 +39,6 @@
                     exitFullscreenOnEnd: false,
                     playback: {
                         playInline: true,
-                        recycleVideo: true,
                     },
                     //height: $(window).innerHeight(),
                     language: "tr-TR",
